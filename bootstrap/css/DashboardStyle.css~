@@ -1,0 +1,42 @@
+header
+{
+	height:40px;
+	background: url("../img/header.jpg")
+}
+
+header .span10
+{
+	height:50px;
+}
+
+header .span2
+{
+	height:50px;
+	margin-left:0px;
+}
+
+
+.header_settings{display: block; float: right; padding: 3px 20px; margin: 0px; list-style: none;}
+
+.span3.Admin{margin-top:-10px;height: 23px; background: url("../img/backgrounds/nav.jpg") left top repeat-x; border: 1px solid #CCC; border-top: 0px;}
+
+section .span9{margin-left:0px;margin-top:-10px;}
+.top{height: 23px; background: url("../img/backgrounds/nav.jpg") left top repeat-x; border: 1px solid #CCC; border-top: 0px;}
+.top .breadcrumb{float: left;}
+.top .breadcrumb,.breadcrumb li, .breadcrumb a{font-size: 11px;background-color:transparent;}    
+.top .Icons{display: block; float: right; padding: 0px; list-style: none; border-right: 1px solid #D5D5D5;}
+.top .Icons li{display: block; float: left; padding: 0px; margin: 0px; border-left: 1px solid #D5D5D5; position: relative;}        
+.top .Icons li > a{display: block; float: left; padding: 1px 5px 0px 10px; margin: 0px; font-size: 11px; color: #333;}
+
+.sidebar
+{
+	background-color:silver;
+	height:10px;
+}
+.mainContent
+{
+	background-color:grey;
+	height:10px;
+	margin-left:0px;
+	
+}

@@ -1,0 +1,5 @@
+PHP code is interpreted by a web server with a PHP processor module which generates the resulting web page: 
+PHP means PreProcesser hypertext.
+new...
+.
+test

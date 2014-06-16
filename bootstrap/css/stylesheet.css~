@@ -1,0 +1,126 @@
+
+body { font-family:sans-serif; font-size: 12px; line-height: 22px; position: relative; background: url("../img/body.jpg")}
+
+/********  Header ***************/
+    
+header{display: block; height: 40px; width: 100%; position: absolute; z-index: 1999; background: url("../img/header.jpg") left top repeat-x;}
+header .logo{display: block; float: left; padding: 8px 3px; }
+.settings{display: block; float: right; padding: 3px 20px;}
+
+
+.TopBar{height: 22px; background: url("../img/backgrounds/nav.jpg") left top repeat-x;font-size: 11px;border: 1px solid #CCC; border-top: 0px;
+        background-color:rgb(245, 245, 245)}
+.TopBar .breadcrumb{float: left;}
+.TopBar .buttons{display: block; float: right;list-style: none;}
+.TopBar .buttons li{display: block; float: left; padding: 0px; margin: 0px; border-left: 1px solid #D5D5D5; position: relative;}        
+.TopBar .buttons li > a{display: block; float: left; padding: 1px 5px 2px 10px; font-size: 11px; color: #333;}
+.TopBar .buttons li > a:hover{text-decoration: none; background: #E6E6E6;}
+
+   
+.menu{display: block; width: 219px; position: absolute; margin-top: 40px; border-bottom: 1px solid #CCCCCC;border-right: 1px solid #DDDDDD;border-left: 1px solid #DDDDDD; padding-bottom: 1px;background-color:rgb(245, 245, 245);}
+.content{position: relative; margin-left: 220px; padding-top: 40px;}
+.content .workplace{position: relative; padding: 20px;}
+  
+
+/******** DIVIDERS *******************/
+
+.hr{height: 5px; margin: 0px 0px 20px; width: 100%; clear: left; background: url("../img/divider.png");}
+.hr span{background: url("../img/divider_span.png") center  no-repeat; width: 100%; height: 5px; display: block;}
+
+
+/**********     SideBar *******************/
+
+    .SideBar{list-style: none; position: relative; padding: 0px; margin: 0px; float: left;}
+    .SideBar li{border-top: 1px solid #5a87b5; border-bottom: 1px solid #335A85; border-right: 1px solid #335A85; background: url("../img/menu-item.jpg") left top repeat-x;  padding: 0px; margin: 0px; display: block; float: left; width: 218px; position: relative;}
+    .SideBar li:hover,.menu .SideBar li.active{border-color: #143D6B; border-top-color: #5a87b5; background: url("../img/menu-item-active.jpg") left top repeat-x;}
+    .SideBar li > a{color: #fff; text-decoration: none; padding: 0px; display: block; float: left; width: 218px; position: relative; -moz-text-shadow: 0 1px 1px #333; -webkit-text-shadow: 0 1px 1px #333; text-shadow: 0 1px 1px #333;}
+    .SideBar li > a span.data{width: 182px; padding: 9px 0px; display: block; margin-left: 10px; float: left; overflow: hidden;}
+    .SideBar li.show > ul{padding: 0px; margin: 0px; float: left; width: 219px; display: none;}
+    .SideBar li.active > ul{display: block !important;}
+    .SideBar li > ul > li{display: block; float: left; width: 219px; background: #F2F2F2; border-top: 1px solid #FCFCFC !important; border-bottom: 1px solid #E4E8ED !important; border-right-color: #E4E8ED;}
+    .SideBar li > ul > li:hover, 
+    .SideBar li > ul > li.active{background: silver}
+    .SideBar li > ul > li > a{display: block; float: left; padding-left: 10px; width: 175px;}
+    .SideBar li > ul > li > a span.data{ color: #333; font-size: 11px; padding: 6px 0px; width: 140px; -moz-text-shadow: 0 1px 0 #FFFFFF; -webkit-text-shadow: 0 1px 0 #FFFFFF; text-shadow: 0 1px 0 #FFFFFF;}
+    .SideBar li > ul > li > a [class*="icon-"]{margin: 9px 0px 7px 10px; display: block; float: left;} 
+
+            
+   
+/********* Latest News *****************/
+
+.matter.news .item{border-bottom: 1px solid #E4E8ED; border-top: 1px solid #FFF; position:relative; padding-bottom: 5px;}
+.matter.news .item > a{font-size: 12px; font-weight: bold;}
+.matter.news .item > p{font-size: 11px; color: #333; margin: 0px 10px;}
+     
+/************ ORDERS ************************/
+
+.oDate{color:green;font-size:11px;}
+.oTime{color:rgb(153, 153, 153);font-size:11px;}
+.price{color:rgb(119, 46, 44);}
+
+    
+.content .workplace .head{background: url("../img/box-head.jpg") left top repeat-x; background-clip: padding-box; border: 1px solid #335A85;}
+.content .workplace .head h1, .content .workplace .head h2, .content .workplace .head h3, .content .workplace .head h4, .content .workplace .head h5, .content .workplace .head h6{ font-size: 12px; color: #fff; line-height: 22px; padding: 8px 0px; margin: 0px; font-weight: bold; margin-left: 10px; display: block; float: left;}
+.content .workplace .head .buttons{float: right; background: none; position: relative; list-style: none; margin: 0px;}
+.content .workplace .head .buttons > li{display: block; float: left;}
+.content .workplace .head .buttons li:active, .content .workplace .head .buttons li.active{background: url('../img/box-head-active.jpg') left center repeat-x;}
+
+.content .workplace .head .buttons [class*="small"], .content .workplace .head .button [class*="big"]
+{margin: 0px; padding: 11px 10px; border-left: 1px solid #335A85; }
+.matter{padding: 10px;border: 1px solid #ccc; border-top: 0px; background-color: #F9F9F9; margin-bottom: 20px;}
+.matter-fluid{border: 1px solid #ccc;width:100%; background-color: #F9F9F9; margin-bottom: 20px;float:left}
+.matter-fluid h2 {font-size:12px;}
+
+/********** Messaging ***************/
+            
+.messaging{padding-top: 5px;}
+.messaging .Imageleft,.messaging .ImageRight{margin: 5px 0px 10px 0px; clear: left; position: relative;}            
+.messaging .Imageleft .text,.messaging .ImageRight .text{padding: 7px 8px; border: 1px solid #d5d5d5; background-color: #FFF; margin-right: 70px; font-size: 11px; color: #333; line-height: 17px;}
+.messaging .ImageRight .text{margin: 0px 0px 0px 70px;}
+.info{ margin-bottom: 5px;}
+.name{ float: left; font-size: 11px; color: #005580; font-weight: bold; color: #333;}
+.date { float: right; font-size: 11px; color: #999; }
+.image{position: absolute; display: block; right: 0px; top: 0px;}
+.messaging .ImageRight .image{right: auto; left: 0px;}            
+.messaging textarea{ padding: 0; marign: 0; display: block; padding-right:0px;}
+    
+
+       
+/****** BIG ICONS ************/
+            
+.BigIcons{border: 0px; text-align: center; padding: 5px 0px;}
+.BigIcons .outer{border: 1px solid #D5D5D5; padding: 5px; margin-top: 5px; margin-left: 5px; position: relative; display: inline-block;-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}   
+.BigIcons .outer > a{display: block; float: left; padding: 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+          
+            
+
+/******* BIG BLOCKS ***************/
+
+.BigBlocks.red{ background-color:rgb(217, 109, 58);}             
+.BigBlocks.green{ background-color:rgb(173, 200, 0);}            
+.BigBlocks.blue{background-color:rgb(144, 194, 238);}               
+  
+
+.BigBlocks{position: relative; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin-bottom: 20px; padding: 0px 5px 5px;color: #FFF;}                                
+
+.InnerLeft{ margin: 5px 0px 0px; background-color: #365B85; padding: 3px;  float: left;width: 45%; min-width: 82px; min-height: 72px;-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}                        
+.InneRight{width: 45%; float: right; margin: 5px 0px 0px;}
+.InnerLeft h3,
+.InnerRight h3{margin: 2px 0px; padding: 0px; font-size: 12px; text-align: center; color: #c7e3fc; font-weight: normal; line-height: 14px;}
+.InnerLeft span, .InneRight span{display: block; text-align: center; color: #FFF; font-size: 12px; line-height: 16px;}
+.InnerLeft span.number{font-size: 30px; color: #FFF; font-weight: bold; line-height: 30px;}
+.InnerLeft span b,.InneRight span b{font-weight: normal; color: #c7e3fc;}                        
+.InneRight h3{text-align: left;}
+.InneRight span{text-align: left; margin-top: 2px;}
+
+.green .InnerLeft{background-color: #677C12;}
+.red .InnerLeft{background-color: #7F1C0F;}
+.blue .InnerLeft{background-color: #4A82BA;}
+
+/******* Small icons ************/
+.small{ margin-left: 10px; padding: 11px 0px; width: 16px; height: 16px; font-size: 14px; font-weight: normal; display: block; float: left;}
+
+/********* big icons ******************/
+.big{ width: 32px; height: 32px; float: left; display: block; font-size: 24px; font-weight: normal;}
+
+

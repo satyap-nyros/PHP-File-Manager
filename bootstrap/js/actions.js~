@@ -1,0 +1,31 @@
+
+
+ $(document).ready(function(){
+    $(".SideBar .show > a").click(function(){
+        var par = $(this).parent('.show');
+        var sub = par.find("ul");
+        if(sub.is(':visible')){
+            par.removeClass('active');            
+        }else{
+            par.addClass('active');            
+        }
+        return false;
+    });
+});
+
+$(document).ready(function() {
+
+	var date = new Date();
+	var d = date.getDate();
+	var m = date.getMonth();
+	var y = date.getFullYear();
+	
+	$('#calendar1').fullCalendar({
+		editable: true,
+	});	
+	$('#calendar2').fullCalendar({
+		editable: true,
+	});	
+});
+
+

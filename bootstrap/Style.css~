@@ -1,0 +1,30 @@
+.Main
+{
+	width: 250px; 
+	position: absolute; 
+	right:150px; top: 120px; 
+	margin-left: -150px;
+	border: 10px solid #FFF; 
+	display: none; 
+	background: #F9F9F9; 
+	border-radius: 10px;        
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 	
+}
+
+.Main h1
+{
+	font-size: 18px; 
+	color: #507399; 
+	
+	margin: 0px; padding: 10px;
+	line-height: 25px;
+}
+
+
+
+.loginPage input[type="text"]
+{
+	width: 100px;
+}
+

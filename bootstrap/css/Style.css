@@ -1,0 +1,99 @@
+body
+{
+	margin-top:20px;
+	background-color:black;
+}
+header
+{
+	background-color:rgb(0, 109, 204);
+	height:100px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+
+header h1
+{
+	text-align:center;
+	margin-top:30px;
+	color:white;	
+}
+
+.content
+{
+	background-color:white;
+	height:600px;
+	border-radius:20px;
+}
+
+.modalHead
+{
+	background-color:rgb(0, 109, 204);
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+
+.PageContent
+{
+	background-color:#f1f1f1;
+	width:950px;
+	margin-left:100px;
+	height:400px;
+	padding:20px;
+
+}
+
+.Orig
+{
+	float:left;
+}
+
+.resizeImg
+{
+	float:left;
+}
+
+.Main
+{
+	width: 250px; 
+	position: absolute; 
+	right:150px; top: 120px; 
+	margin-left: -150px;
+	border: 10px solid #FFF; 
+	display: none; 
+	background: #F9F9F9; 
+	border-radius: 10px;        
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 	
+}
+
+.Main h1
+{
+	font-size: 18px; 
+	color: #507399; 
+	
+	margin: 0px; padding: 10px;
+	line-height: 25px;
+}
+
+   
+
+.menu{display: block; width: 219px; position: absolute; margin-top: -21px; margin-left:750px;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #DDDDDD;border-left: 1px solid #DDDDDD; padding-bottom: 1px;background-color:rgb(245, 245, 245);}
+  
+
+
+    .SideBar{list-style: none; position: relative; padding: 0px; margin: 0px; float: left;}
+    .SideBar li{border-top: 1px solid #5a87b5; border-bottom: 1px solid #335A85; border-right: 1px solid #335A85; background: url("../img/menu-item.jpg") left top repeat-x;  padding: 0px; margin: 0px; display: block; float: left; width: 218px; position: relative;}
+    .SideBar li:hover,.menu .SideBar li.active{border-color: #143D6B; border-top-color: #5a87b5; background: url("../img/menu-item-active.jpg") left top repeat-x;}
+    .SideBar li > a{color: #fff; text-decoration: none; padding: 0px; display: block; float: left; width: 218px; position: relative;text-shadow: 0 1px 1px #333;}
+    .SideBar li > a span.data{width: 182px; padding: 9px 0px; display: block; margin-left: 10px; float: left; overflow: hidden;}
+    .SideBar li.show > ul{padding: 0px; margin: 0px; float: left; width: 219px; display: none;}
+    .SideBar li.active > ul{display: block}
+    .SideBar li > ul > li{display: block; float: left; width: 219px; background: #F2F2F2; border-top: 1px solid #FCFCFC; border-bottom: 1px solid #E4E8ED; border-right-color: #E4E8ED;}
+    .SideBar li > ul > li:hover, 
+    .SideBar li > ul > li.active{background: silver}
+    .SideBar li > ul > li > a{display: block; float: left; padding-left: 10px; width: 175px;}
+    .SideBar li > ul > li > a span.data{ color: #333; font-size: 11px; padding: 6px 0px; width: 140px; -moz-text-shadow: 0 1px 0 #FFFFFF; webkit-text-shadow: 0 1px 0 #FFFFFF; text-shadow: 0 1px 0 #FFFFFF;}
+
+
+   
+#FileContent:hover{cursor:text;}

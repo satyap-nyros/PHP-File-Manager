@@ -1,0 +1,31 @@
+
+/****   SIDE MENU **************/
+$(document).ready(function(){
+    $(".SideBar .show > a").click(function(){
+	
+	var par = $(this).parent('.show');
+        var sub = par.find("ul");
+	$(sub).toggle(1000);
+        return false;
+    });
+
+	$(".menu .breadLine div > a").click(function(){
+	var pare = $(this).parent('div');
+        var sub = pare.find("div");
+	$(sub).toggle(1000);
+	
+    });
+});
+
+/******* CALENDAR ************/
+
+$(document).ready(function() {
+
+	$('#calendar1').fullCalendar({
+		editable: true,
+	});	
+	$('#calendar2').fullCalendar({
+		editable: true,
+	});	
+});
+

@@ -1,0 +1,74 @@
+/*************************************************
+      SlidePanel CSS 
+      @author Fabio Mangolini
+      http://www.responsivewebmobile.com
+**************************************************/
+
+#slidein-panel {
+  margin-top: 60px;
+  float:right;
+  padding: 0;
+  background-color: #333333;
+  box-shadow: 4px 4px 4px #666666;
+}
+
+#slidein-panel ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#slidein-panel ul li {
+    background-color: #333333;
+    display: block;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #393939;
+    border-top: 1px solid #4E4E4E;
+}
+
+#slidein-panel ul li a:link,
+#slidein-panel ul li a:visited {
+  display: block;
+  text-decoration: none;
+  color: #999;
+  padding: 10px;
+  font-size: 12px;
+}
+
+#slidein-panel ul li:hover {
+  background-color: #222222;
+}
+
+#slidein-panel-container {
+  position: relative;
+}
+
+#slidein-panel-container a:link, 
+#slidein-panel-container a:visited {
+  box-shadow: 4px 4px 4px #666666;
+  border-top: 1px solid #4E4E4E;
+  background-color: #333333;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-property: background color;
+  -webkit-transition-duration: .5s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: background color;
+  -moz-transition-duration: .5s;
+  -moz-transition-timing-function: ease;
+  -o-transition-property: background color;
+  -o-transition-duration: .5s;
+  -o-transition-timing-function: ease;
+  -ms-transition-property: background color;
+  -ms-transition-duration: .5s;
+  -ms-transition-timing-function: ease;
+  transition-property: background color;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+}
+
+#slidein-panel-container a:hover {
+  background-color: #666666;
+}
